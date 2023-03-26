@@ -1,0 +1,657 @@
+@media only screen and (max-width: 767px) {
+    .navbar {
+        background-color: #1a1a1a;
+        height: 5em;
+        padding: 0 5%;
+    }
+
+    .navbar-toggler:focus {
+        border: 0 !important;
+        box-shadow: none !important;
+    }
+
+    .navbar-toggler {
+        border: 0 !important;
+
+    }
+
+    .navbar-toggler-icon {
+        filter: invert(1);
+    }
+
+    .logo {
+        width: 180px;
+    }
+
+    .offcanvas {
+        background-color: #f6f6f6;
+    }
+
+    .parent-container {
+        position: relative;
+    }
+
+    .video-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .main {
+        padding-top: 100vh;
+        padding-bottom: 100vh;
+    }
+
+    .card {
+        flex-direction: column;
+        border-radius: 0;
+    }
+
+    .card-shadow {
+        box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+    }
+
+    .card-tall {
+        height: 500px;
+    }
+
+    footer {
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 0 5%;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    .form-control {
+        border: none;
+        border-bottom: 1px solid #ced4da;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .form-control:focus {
+        outline: none;
+        box-shadow: none;
+        border-color: #ced4da;
+    }
+
+    .btn-dark {
+        border-radius: 0;
+        border: none;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px 30px;
+    }
+
+    .btn-dark:hover {
+        background-color: #1a1a1a;
+    }
+
+    .nav-link {
+        color: #6c757d;
+        text-decoration: none;
+    }
+
+    .nav-link:hover {
+        color: #1a1a1a;
+    }
+
+    p {
+        color: #6c757d;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .navbar {
+        background-color: #1a1a1a;
+        height: 5em;
+        padding: 0 5%;
+    }
+
+    .navbar-toggler:focus {
+        border: 0 !important;
+        box-shadow: none !important;
+    }
+
+    .navbar-toggler {
+        border: 0 !important;
+
+    }
+
+    .navbar-toggler-icon {
+        filter: invert(1);
+    }
+
+    .logo {
+        width: 180px;
+    }
+
+    .offcanvas {
+        background-color: #f6f6f6;
+    }
+      
+    .parent-container {
+        position: relative;
+    }
+
+    .video-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .main {
+        padding-top: 100vh;
+        padding-bottom: 100vh;
+    }
+
+    .card {
+        border-radius: 0;
+    }
+
+    .card-shadow {
+        box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+    }
+
+    .card-tall {
+        height: 500px;
+    }
+
+    footer {
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 0 5%;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    .form-control {
+        border: none;
+        border-bottom: 1px solid #ced4da;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .form-control:focus {
+        outline: none;
+        box-shadow: none;
+        border-color: #ced4da;
+    }
+
+    .btn-dark {
+        border-radius: 0;
+        border: none;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px 30px;
+    }
+
+    .btn-dark:hover {
+        background-color: #1a1a1a;
+    }
+
+    .nav-link {
+        color: #6c757d;
+        text-decoration: none;
+    }
+
+    .nav-link:hover {
+        color: #1a1a1a;
+    }
+
+    p {
+        color: #6c757d;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .navbar {
+        background-color: #1a1a1a;
+        height: 5em;
+        padding: 0 5%;
+    }
+
+    .navbar-toggler:focus {
+        border: 0 !important;
+        box-shadow: none !important;
+    }
+
+    .navbar-toggler {
+        border: 0 !important;
+
+    }
+
+    .navbar-toggler-icon {
+        filter: invert(1);
+    }
+
+    .logo {
+        width: 180px;
+    }
+
+    .offcanvas {
+        background-color: #f6f6f6;
+    }
+    
+    .parent-container {
+        position: relative;
+    }
+
+    .video-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .main {
+        padding-top: 100vh;
+        padding-bottom: 100vh;
+    }
+
+    .card {
+        border-radius: 0;
+    }
+
+    .card-shadow {
+        box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+    }
+
+    .card-tall {
+        height: 500px;
+    }
+
+
+    footer {
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 0% 5%;
+    }
+
+    form {
+        width: 80%;
+    }
+@media only screen and (max-width: 767px) {
+    .navbar {
+        background-color: #1a1a1a;
+        height: 5em;
+        padding: 0 5%;
+    }
+
+    .navbar-toggler:focus {
+        border: 0 !important;
+        box-shadow: none !important;
+    }
+
+    .navbar-toggler {
+        border: 0 !important;
+
+    }
+
+    .navbar-toggler-icon {
+        filter: invert(1);
+    }
+
+    .logo {
+        width: 180px;
+    }
+
+    .offcanvas {
+        background-color: #f6f6f6;
+    }
+
+    .parent-container {
+        position: relative;
+    }
+
+    .video-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .main {
+        padding-top: 100vh;
+        padding-bottom: 100vh;
+    }
+
+    .card {
+        flex-direction: column;
+        border-radius: 0;
+    }
+
+    .card-shadow {
+        box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+    }
+
+    .card-tall {
+        height: 500px;
+    }
+
+    footer {
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 0 5%;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    .form-control {
+        border: none;
+        border-bottom: 1px solid #ced4da;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .form-control:focus {
+        outline: none;
+        box-shadow: none;
+        border-color: #ced4da;
+    }
+
+    .btn-dark {
+        border-radius: 0;
+        border: none;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px 30px;
+    }
+
+    .btn-dark:hover {
+        background-color: #1a1a1a;
+    }
+
+    .nav-link {
+        color: #6c757d;
+        text-decoration: none;
+    }
+
+    .nav-link:hover {
+        color: #1a1a1a;
+    }
+
+    p {
+        color: #6c757d;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .navbar {
+        background-color: #1a1a1a;
+        height: 5em;
+        padding: 0 5%;
+    }
+
+    .navbar-toggler:focus {
+        border: 0 !important;
+        box-shadow: none !important;
+    }
+
+    .navbar-toggler {
+        border: 0 !important;
+
+    }
+
+    .navbar-toggler-icon {
+        filter: invert(1);
+    }
+
+    .logo {
+        width: 180px;
+    }
+
+    .offcanvas {
+        background-color: #f6f6f6;
+    }
+      
+    .parent-container {
+        position: relative;
+    }
+
+    .video-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .main {
+        padding-top: 100vh;
+        padding-bottom: 100vh;
+    }
+
+    .card {
+        border-radius: 0;
+    }
+
+    .card-shadow {
+        box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+    }
+
+    .card-tall {
+        height: 500px;
+    }
+
+    footer {
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 0 5%;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    .form-control {
+        border: none;
+        border-bottom: 1px solid #ced4da;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .form-control:focus {
+        outline: none;
+        box-shadow: none;
+        border-color: #ced4da;
+    }
+
+    .btn-dark {
+        border-radius: 0;
+        border: none;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px 30px;
+    }
+
+    .btn-dark:hover {
+        background-color: #1a1a1a;
+    }
+
+    .nav-link {
+        color: #6c757d;
+        text-decoration: none;
+    }
+
+    .nav-link:hover {
+        color: #1a1a1a;
+    }
+
+    p {
+        color: #6c757d;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .navbar {
+        background-color: #1a1a1a;
+        height: 5em;
+        padding: 0 5%;
+    }
+
+    .navbar-toggler:focus {
+        border: 0 !important;
+        box-shadow: none !important;
+    }
+
+    .navbar-toggler {
+        border: 0 !important;
+
+    }
+
+    .navbar-toggler-icon {
+        filter: invert(1);
+    }
+
+    .logo {
+        width: 180px;
+    }
+
+    .offcanvas {
+        background-color: #f6f6f6;
+    }
+    
+    .parent-container {
+        position: relative;
+    }
+
+    .video-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .main {
+        padding-top: 100vh;
+        padding-bottom: 100vh;
+    }
+
+    .card {
+        border-radius: 0;
+    }
+
+    .card-shadow {
+        box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+    }
+
+    .card-tall {
+        height: 500px;
+    }
+
+
+    footer {
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 0% 5%;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    .form-control {
+        border: none;
+        border-bottom: 1px solid #ced4da;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .form-control:focus {
+        outline: none;
+        box-shadow: none;
+        border-color: #ced4da;
+    }
+
+    .btn-dark {
+        border-radius: 0;
+        border: none;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px 30px;
+    }
+
+    .btn-dark:hover {
+        background-color: #1a1a1a;
+    }
+
+    .nav-link {
+        color: #6c757d;
+        text-decoration: none;
+    }
+
+    .nav-link:hover {
+        color: #1a1a1a;
+    }
+
+    p {
+        color: #6c757d;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+}
+    .form-control {
+        border: none;
+        border-bottom: 1px solid #ced4da;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .form-control:focus {
+        outline: none;
+        box-shadow: none;
+        border-color: #ced4da;
+    }
+
+    .btn-dark {
+        border-radius: 0;
+        border: none;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px 30px;
+    }
+
+    .btn-dark:hover {
+        background-color: #1a1a1a;
+    }
+
+    .nav-link {
+        color: #6c757d;
+        text-decoration: none;
+    }
+
+    .nav-link:hover {
+        color: #1a1a1a;
+    }
+
+    p {
+        color: #6c757d;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+}

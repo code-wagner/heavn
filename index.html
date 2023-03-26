@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="A modern and elegant skate brand that's revolutionizing the industry. With sleek and innovative designs, heavn is paving the way for the future of skateboarding.">
+    <meta name="keywords" content="Decks, Boards, Skate, Inspiration">
+    <link rel="shortcut icon" href="./assets/images/logo-2.png" type="image/x-icon">
+    <title>Home - Heavn</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/common.css">
+    <script src="./main.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar shadow-lg sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand mx-auto" href="#"><img src="./assets/images/logo-1.png" class="logo" alt="logo"></a>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./assets/images/logo-2.png"
+                            class="logo" alt="logo"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Store</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Visuals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cart</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+        
+    <div class="video-container">
+        <video id="my-video" class="video" autoplay loop muted>
+            <source src="./assets/videos/AdobeStock_253636008.mp4" type="video/mp4">
+        </video>
+
+        <main>
+            <div class="container my-5">
+                <h1 class="text-center mb-5">Our Products</h1>
+                <div class="row card-tall">
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="card card-shadow border-0">
+                            <img src="./assets/images/AdobeStock_74491004.jpeg" class="card-img-top rounded-0"
+                                alt="Product 1">
+                            <div class="card-body">
+                                <h5 class="card-title mb-0">Arctic Mist</h5>
+                                <p class="card-text mb-2">$65.00</p>
+                                <button class="btn btn-dark btn-block">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="card card-shadow border-0">
+                            <img src="./assets/images/AdobeStock_74491028.jpeg" class="card-img-top rounded-0"
+                                alt="Product 2">
+                            <div class="card-body">
+                                <h5 class="card-title mb-0">Obsidian Noir</h5>
+                                <p class="card-text mb-2">$65.00</p>
+                                <button class="btn btn-dark btn-block">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="card card-shadow border-0">
+                            <img src="./assets/images/leather-backpack.png" class="card-img-top rounded-0"
+                                alt="Product 3">
+                            <div class="card-body">
+                                <h5 class="card-title mb-0">Rebel Rider Backpack</h5>
+                                <p class="card-text mb-2">$450.00</p>
+                                <button class="btn btn-dark btn-block">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="card card-shadow border-0">
+                            <img src="./assets/images/jacket.png" class="card-img-top rounded-0" alt="Product 4">
+                            <div class="card-body">
+                                <h5 class="card-title mb-0">Rider's Denim Jacket</h5>
+                                <p class="card-text mb-2">$240.00</p>
+                                <button class="btn btn-dark btn-block">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="py-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <form>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden">Email address</label>
+                                <input id="newsletter1" type="text" class="form-control"
+                                    placeholder="Join Our Mailing List">
+                                <button id="subscribeButton" class="btn btn-dark" type="button">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-6 col-md-2 mb-3">
+                        <div class="d-flex">
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2 me-3"><a href="#" class="nav-link p-0 text-muted">Terms of
+                                        Use</a>
+                                </li>
+                                <li class="nav-item mb-2 me-3"><a href="#" class="nav-link p-0 text-muted">Privacy
+                                        Policy</a></li>
+                                <li class="nav-item mb-2 me-3"><a href="#" class="nav-link p-0 text-muted">Support</a>
+                                </li>
+                                <li class="nav-item mb-2 me-3"><a href="#" class="nav-link p-0 text-muted">About</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                            <p>&copy; 2023 HEAVN LLC.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
