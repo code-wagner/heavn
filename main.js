@@ -36,10 +36,10 @@ class Products {
   // [ 'decks', 'apparel' ]
   const numberProdutcs = productsArray.map((o) => o.number);
   // [ '2', '2' ]
-  
-  // Get references to the form elements
-  const emailInput = document.querySelector("#newsletter1");
-  const subscribeBtn = document.querySelector("#subscribeButton");
+
+  document.addEventListener("DOMContentLoaded", function() {
+    const emailInput = document.querySelector("#newsletter1");
+    const subscribeBtn = document.querySelector("#subscribeButton");
   
   // Add event listener to the Subscribe button
   subscribeBtn.addEventListener("click", function () {
@@ -64,6 +64,7 @@ class Products {
   // Display the email list on the page
   const emailListElement = document.querySelector("#emailList");
   emailListElement.innerHTML = emailList.join(", ");
+  });
   
   const nameProducts = [
     {
