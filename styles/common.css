@@ -80,6 +80,15 @@
         border-color: #ced4da;
     }
 
+    .swal-button {
+        border-radius: 0px;
+        background-color: #1a1a1a;
+        border: none;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px 30px;
+    }
+
     .btn-dark {
         border-radius: 0;
         border: none;
@@ -190,6 +199,15 @@
         border-color: #ced4da;
     }
 
+    .swal-button {
+        border-radius: 0px;
+        background-color: #1a1a1a;
+        border: none;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px 30px;
+    }
+
     .btn-dark {
         border-radius: 0;
         border: none;
@@ -298,6 +316,15 @@
         outline: none;
         box-shadow: none;
         border-color: #ced4da;
+    }
+
+    .swal-button {
+        border-radius: 0px;
+        background-color: #1a1a1a;
+        border: none;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px 30px;
     }
 
     .btn-dark {
