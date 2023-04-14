@@ -36,6 +36,14 @@ const nameProducts = [
   },
 ];
 
+$(document).ready(function () {
+  $(".add-to-cart").click(function () {
+    var count = parseInt($("#cart-count").text());
+    $("#cart-count").text(count + 1);
+    $("#cart-count-nav").text(count + 1);
+  });
+});
+
 document.addEventListener("DOMContentLoaded", function () {
   const emailInput = document.querySelector("#newsletter1");
   const subscribeBtn = document.querySelector("#subscribeButton");
