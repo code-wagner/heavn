@@ -19,7 +19,7 @@ The project was built using:
 
 The Skate Shop E-commerce Project has the following features:
 
-    Shopping cart functionality: Users can add items to their cart,
+    Shopping cart functionality: Users can add items to their cart.
     Mailing list: Users can sign up to receive news, updates, and special offers from the Skate Shop via email.
     Responsive design: The website has been designed to be fully responsive, ensuring that it looks and functions great on any device or screen size.
     SEO optimization: The website has been optimized for search engine visibility, making it easier for potential customers to find the Skate Shop and its products online.
