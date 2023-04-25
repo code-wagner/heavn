@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": "Deck-1",
+      "name": "Arctic Mist",
+      "price": "$65.00",
+      "image": "assets/images/AdobeStock_74491004.jpeg"
+    },
+    {
+      "id": "Deck-2",
+      "name": "Obsidian Noir",
+      "price": "$65.00",
+      "image": "assets/images/AdobeStock_74491028.jpeg"
+    },
+    {
+      "id": "Backpack",
+      "name": "Rebel Rider Backpack",
+      "price": "$450.00",
+      "image": "assets/images/leather-backpack.png"
+    },
+    {
+      "id": "Jacket",
+      "name": "Rider's Denim Jacket",
+      "price": "$240.00",
+      "image": "assets/images/jacket.png"
+    }
+  ]
+}

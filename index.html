@@ -47,7 +47,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">About</a>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Cart <span id="cart-count-nav">0</span></a>
+                            <a class="nav-link" href="#">Cart <span id="cart-count-nav"></span></a>
                     </ul>
                 </div>
             </div>
@@ -62,50 +62,7 @@
         <main>
             <div class="container my-5">
                 <h1 class="text-center mb-5">Our Products</h1>
-                <div class="row card-tall">
-                    <div class="col-md-6 col-lg-3 mb-4">
-                        <div class="card card-shadow border-0" data-id="Deck-1">
-                            <img src="./assets/images/AdobeStock_74491004.jpeg" class="card-img-top rounded-0"
-                                alt="Product 1">
-                            <div class="card-body">
-                                <h5 class="card-title mb-0">Arctic Mist</h5>
-                                <p class="card-text mb-2">$65.00</p>
-                                <button class="btn btn-dark btn-block add-to-cart">Add to Cart</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-4">
-                        <div class="card card-shadow border-0" data-id="Deck-2">
-                            <img src="./assets/images/AdobeStock_74491028.jpeg" class="card-img-top rounded-0"
-                                alt="Product 2">
-                            <div class="card-body">
-                                <h5 class="card-title mb-0">Obsidian Noir</h5>
-                                <p class="card-text mb-2">$65.00</p>
-                                <button class="btn btn-dark btn-block add-to-cart">Add to Cart</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-4">
-                        <div class="card card-shadow border-0" data-id="Backpack">
-                            <img src="./assets/images/leather-backpack.png" class="card-img-top rounded-0"
-                                alt="Product 3">
-                            <div class="card-body">
-                                <h5 class="card-title mb-0">Rebel Rider Backpack</h5>
-                                <p class="card-text mb-2">$450.00</p>
-                                <button class="btn btn-dark btn-block add-to-cart">Add to Cart</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-4">
-                        <div class="card card-shadow border-0" data-id="Jacket">
-                            <img src="./assets/images/jacket.png" class="card-img-top rounded-0" alt="Product 4">
-                            <div class="card-body">
-                                <h5 class="card-title mb-0">Rider's Denim Jacket</h5>
-                                <p class="card-text mb-2">$240.00</p>
-                                <button class="btn btn-dark btn-block add-to-cart">Add to Cart</button>
-                            </div>
-                        </div>
-                    </div>
+                <div class="row card-tall" id="card-list">
                 </div>
             </div>
         </main>
@@ -148,8 +105,7 @@
             </div>
         </footer>
 
-        <script src="./product.js"></script>
-        <script src="./server.js"></script>
+        <script src="./cart.js"></script>
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"

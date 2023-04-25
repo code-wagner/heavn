@@ -17,35 +17,24 @@ const nameProducts = [
   {
     name: "Arctic Mist",
     description: "Deck size 5'3",
-    price: 65.0,
+    price: "$65.00",
   },
   {
     name: "Obsidian Noir",
     description: "Deck size 5'3",
-    price: 65.0,
+    price: "$65.00",
   },
   {
     name: "Rebel Rider Backpack",
     description: "leather backpack",
-    price: 450.0,
+    price: "$450.00",
   },
   {
     name: "Rider's Denim Jacket",
     description: "Denim Jacket",
-    price: 240.0,
+    price: "$240.00",
   },
 ];
-
-$(document).ready(function () {
-  $(".add-to-cart").click(function () {
-    var count = parseInt($("#cart-count").text());
-    if (!isNaN(count)) {
-      $("#cart-count").text(count + 1);
-      $("#cart-count-nav").text(count + 1);
-    }
-  });
-});
-
 
 document.addEventListener("DOMContentLoaded", function () {
   const emailInput = document.querySelector("#newsletter1");
