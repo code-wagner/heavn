@@ -28,10 +28,11 @@ The Skate Shop E-commerce Project has the following features:
 
 To run the project locally, you can follow these steps:
 
-    Clone the repository: git clone https://github.com/code-wagner/heavn
+    Download the project from this link: https://github.com/code-wagner/heavn.git
     Install dependencies: npm install
     Start the development server: npm start
 
 # Contributors
 
-This project was created by Wagner Santos.
+This project was created by [Wagner Santos](https://github.com/code-wagner).
+
