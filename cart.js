@@ -14,10 +14,27 @@ cards.forEach((card) => {
   });
 });
 
-function updateCart() {
+const cartItems = [];
+
+function updateCart(product) {
   const counterElement = document.getElementById("cart-count-nav");
   count++;
   counterElement.innerHTML = count;
+  // add product to cart
+  cartItems.push(product);
+
+  // update cart items list
+  const cartItemsList = document.querySelector(".cart-items ul");
+  cartItemsList.innerHTML = "";
+  cartItems.forEach((item) => {
+    const listItem = document.createElement("li");
+    listItem.classList =
+      "list-group-item d-flex justify-content-between align-items-center";
+    listItem.innerHTML = `
+      ${item.name} <span class="badge badge-primary badge-pill">${item.quantity}</span>
+    `;
+    cartItemsList.appendChild(listItem);
+  });
 }
 
 fetch("products.json")

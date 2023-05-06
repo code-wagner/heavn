@@ -46,8 +46,30 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">About</a>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Cart <span id="cart-count-nav"></span></a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Cart <span id="cart-count-nav"></span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <div id="cart-items-list" class="p-2"></div>
+                                </li>
+                                <li>
+                                    <div class="dropdown-divider"></div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between px-3 py-2">
+                                        <span>Subtotal:</span>
+                                        <span id="cart-subtotal">$0.00</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <button class="btn btn-dark btn-block px-3 py-2" id="checkout-btn"
+                                        disabled>Checkout</button>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </div>

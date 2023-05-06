@@ -50,7 +50,20 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       emailList.push(email);
       localStorage.setItem("emailList", JSON.stringify(emailList));
-      swal("Nice!", "Thank you for subscribing!", "success");
+      let count = emailList.length;
+      swal({
+        title: "Nice!",
+        text: `Thank you for subscribing! You now have ${count} emails registered.`,
+        icon: "success",
+        buttons: ["Cancel", "Clear List"],
+      }).then((value) => {
+        if (value) {
+          emailList = [];
+          localStorage.setItem("emailList", JSON.stringify(emailList));
+          const emailListElement = document.querySelector("#emailList");
+          emailListElement.innerHTML = "";
+        }
+      });
     }
   });
 
