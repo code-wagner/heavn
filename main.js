@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (value) {
           emailList = [];
           localStorage.setItem("emailList", JSON.stringify(emailList));
-          const emailListElement = document.querySelector("#emailList");
+          const emailListElement = document.querySelector("emailList");
           emailListElement.innerHTML = "";
         }
       });
@@ -84,3 +84,10 @@ jQuery(window).scroll(function () {
     jQuery("#my-video")[0].play();
   }
 });
+
+function initMap() {
+  var map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: -34.397, lng: 150.644 },
+    zoom: 8,
+  });
+}
